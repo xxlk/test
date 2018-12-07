@@ -1,12 +1,13 @@
 /*总体设置*/
 header,nav, #banner, section, #movies, #Customer,#footer{
-  width: 1230px;margin: 0 auto;
+  width: 1230px;
+  margin: 0 auto;
 }
 html{
   background: #f5f5f5;
 }
 body{
-  font: 14px; "microsoft yahei",Arial,Helvetica,sans-serif;
+  font: 14px "microsoft yahei",Arial,Helvetica,sans-serif;
   color: #333;
   margin: 0;
   padding: 0;
@@ -18,30 +19,30 @@ ul,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd{
   list-style: none;
 }
 input{
-  online: none;
+  outline: none;
 }/*清楚点击时的边框*/
 a{
   color: #333;
   text-decoration: none;
 }
 a:hover{
-  color: #ff6700;
+  color: #FF6700;
   text-decoration: none;
 }
 .rt{
   float: right;
 }
 .lt{
-  flort: left;
+  float: left
 }
 /********项目**CSS动画********/
 section li{
-  transition:all 0.2s linear
+  transition:all 0.2s linear;
 }
-section li hover{
-  transform: translete3d(0,-2px,0)
-  z-index:2;
-  box-shadow:0 15px 30px rgba(0,0,0,0,1)
+section li:hover {
+  transform: translete3d(0,-2px,0);
+  z-index: 2;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 1)
 }
 #movies ul li:hover{
   transform: rotate(180deg);
@@ -49,3 +50,104 @@ section li hover{
 #movies ul li{
   transition: all 0.6s ease 0s;
 }
+/*111111111111111111111111111111111第一头部111111111111111111111111111111111*/
+header {
+  width:100%; 
+  height: 40px;
+  line-height: 40px;
+  background:rgba(0, 0, 0, 1);
+}
+header div:first-child{
+  margin: 0 auto;
+}
+#top{
+  widows: 1230px;
+}
+#top a,p{
+  color: #b0b0b0;
+}
+#top a:hover{
+  color: #fff;
+}
+/*左边*/
+#top_03 li{
+  float: left;
+  color: #fff;
+  padding-left: 10px;
+}
+#top b{
+  color:#B0B0B0;
+  padding-left: 10px;
+}
+/*右边*/
+#top_rt a{
+  padding: left 6px;
+}
+#top_rt a:nth-child(5){
+  padding-right:10px;
+}
+#top_rt p{
+  padding: right 10px;
+  background:#424242;
+}
+/*22222222222222222222222222*第二部分nav2222222222222222222222222222*/
+#nav {
+  margin: 20px 0;
+  height: 56px;
+  line-height : 56px;
+  position: relative;
+}
+#nav ul li{
+  float: left;
+  padding-left: 10px;
+  font-size: 17px;
+}
+#nav p{
+  float: left;
+  margin: 0 20px;
+}
+#nav p img:last-child{
+  padding-left: 50px;
+}
+/****搜索框****/
+#search {
+  width: 296px;
+  height: 51px;
+  line-height: 50px;
+  position: relative;
+  border :1px solid #e0e0e0;
+}
+#search :hover{
+  border: 1px solid #b0b0b0;
+}
+#search input:active #search {
+  border: 1px solid red;
+}
+#search input{
+  width: 240px;
+  height: 45px;
+}
+#searc button{
+  width: 50px;
+  height: 51px;
+  position:absolute;
+}
+#search >div.search_nav {
+  position: absolute;
+  top:2px;
+  right:70px;
+}
+#search >div.search_box{
+  width: 245px;
+  border: 1px solid #ff6700;
+  position: absolute;
+  top:50px;
+  right:49px;
+  float: left;
+  display: none;
+  background:#fff;
+}
+#search:hover .search_box{
+  display: block;
+}
+/********导航弹出框********/
