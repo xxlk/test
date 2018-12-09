@@ -1,0 +1,416 @@
+/*总体设置*/
+header,nav,#banner,section,#movies,#Customer,#footer{
+    width: 1230px;
+    margin:0 auto;
+}
+html{
+    background:#F5F5F5;
+}
+body{
+    font: 14px"microsoft yahei",Arial, Helvetica, sans-serif;
+    color:#333;
+    margin: 0;
+    padding: 0;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd{
+    margin:0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+input{
+    outline: none;
+}
+/*清楚点击时的边框*/
+a{
+    color:#333;
+    text-decoration: none;
+}
+a:hover {
+    color :#FF6700;
+    text-decoration: none;
+}
+.rt{
+    float:right;
+}
+.lt{
+    float:left;
+}
+section li{
+    transition: all 0.2s linear
+}
+section li:hover{
+    transform: translate3d(0,-2px,0);
+    z-index:2;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 1)
+}
+#movies ul li:hover{
+    transform :rotateY(180deg);
+}
+movies ul li {
+    transition: all 0.6s ease 0s;
+}
+/*1第一头部 header1*/
+header{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #333;
+}
+header div:first-child{
+    margin:0 auto;
+}
+#top {
+    width: 1230px;
+}
+#top a,p{
+    color: #B0B0B0;
+}
+#top a:hover{
+    color: #FFF;
+}
+/*左边*/
+#top_03 li{
+    float: left;
+    color: #FFF;
+    padding-left: 10px;
+}
+/*右边*/
+#top_rt a{
+    padding-left:6px;
+}
+#top_rt a:nth-child(5){
+    padding-right: 10px;
+    background: #424242;
+}
+/*2第二头部nav*/
+#nav{
+    margin:20px 0;
+    height: 56px;
+    line-height: 56px;
+    position: relative; 
+}
+#nav ul li{
+    float: left;
+    padding-left: 10px;
+    font-size:17px;
+}
+#nav p{
+    float:left;
+    margin: 0 20px;
+}
+#nav p img:last-child{
+    padding: left 50px;
+}
+/*搜索框*/
+#search{
+    width: 296px;
+    height: 51px;
+    line-height: 50px;
+    position: relative;
+    border: 1px solid #e0e0e0;
+}
+#search :hover{
+    border: 1px solid #B0B0B0
+}
+#search input:active #search{
+    border: 1px solid red;
+}
+#search input{
+    width: 240px;
+    height:45px;
+}
+#search button{
+    widows: 50px;
+    height:51px;
+    position: absolute;
+}
+#search>div.search_nav{
+    position: absolute;
+    top: 2px;
+    right: 70px;
+}
+#serch> div a{
+    margin-left:10px;
+    font-size: 15px;
+}
+#search>div.search_box{
+    width:245px;
+    border:1px solid #ff6700;
+    position: absolute;
+    top:50px;
+    right: 49px;
+    float: left;
+    display:none;
+    background: #FFF;
+}
+#search :hover .search_box{
+    display:block;
+}
+#banner:before{
+    content: "";
+    display: block;
+    clear: both ;
+    position: relative;
+}
+#category{
+    height: 460px;
+    width:235px;
+    background: #666666;
+    position: absolute;
+    top:138px;
+}
+#category ul{
+    margin-top: 17px;
+}
+#category ul li{
+    padding: 12px;
+    cursor: pointer;
+}
+#category ul li:hover{
+    background: #ff6f0f;
+}
+#category ul li b{
+    width: 7px;
+    height: 13px;
+    display: inline-block ;
+    background: url(images/background.png)no-repeat 0 -53px;
+    float: right;
+}
+#category_right{
+    position: relative;
+}
+#category_right>ul{
+    width: 800px;
+    height: 456px;
+    border: 1px solid red;
+    position: absolute;
+    bottom: 5px;
+    right: 195px;
+    display: none;
+}
+#category_right>ul li{
+    margin:0px;
+}
+#category_right>ul li b{
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+}
+/*banner.bottom*/
+#banner_btm ul{
+    width: 233px;
+    height:170px;
+    border: 1px solid #948f8a;
+    background: #5f5750;
+    margin: 5px 5px 5px 0;
+}
+#banner_btm ul li{
+    width: 70px;
+    height:82px;
+    padding :0 3px;
+    float:left;
+}
+#banner_btm ul il a{
+    display: block;
+    padding-top: 18px;
+    color: #cfcdcb;
+    margin-left:10px;
+}
+#banner_btm ul li a:hover {
+    color: #FFF;
+}
+#banner_btm ul li i{
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 4px;
+    background:url(images/i1.png)no-repeat;
+    margin-left: 23px;
+}
+#banner_btm a img{
+    width: 316px;
+    height: 170px;
+    margin: 5px 6px;
+    padding-right: 1px;
+}
+section{
+    border: 1px solid #f5f5f5;
+}
+第一部分 小米明星单品
+#star>div >h2{
+    font-size :22px;
+    font-weight: 200;
+    line-height: 58px;
+}
+#star>div>p{
+    width: 72px;
+    height: 27px;
+    background: url(images/background.png)no-repeat -71px 0;
+}
+/**下面电视手机**/
+#star{
+    border: 1px solid #fff;
+    height: 424px;
+    float: left;
+    background: #fff;
+}
+#star dl{
+    width: 2228px;
+    height: 300px;
+    text-align: center;
+    margin-right: 21px;
+    float: left;
+    border-top:1px solid #333;
+    padding-top: 56px;
+    background:#f5f5f5;
+}
+#star dl>dt>a>img{
+    width: 160px;
+    height: 160px;
+}
+#star dl dd.Ltc{
+    color:#FF6a0a;
+    padding: 16px;
+}
+#star dl dd h4{
+    padding: 5px 0;
+}
+#star div.star_dl{
+    float:left;
+    height: 300px;
+}
+#star div.star_dl dl:nth-child(5){
+    margin-right: 0;
+}
+#star div.star_dl dl.s1{
+    border-top-color: #fdcf7a;
+}
+#star div.star_ dl dl.s2{
+    border-top-color:#b8dc98;
+}
+#star div.star_ dl dl.s3{
+    border-top-color: #37a0f4;
+}
+#star div.star_ dl dl.s4{
+    border-top-color: #e74d49;
+}
+#star div.star_ dl dl.s5{
+    border-top-color: #41d0bc;
+}
+/**\\第二部分**智能硬件product_hardware**/
+#product_hardware{
+    width: 1230px;
+    border: 1px solid #F5F5F5;
+    float:left;
+}
+#product_hardware>a{
+    line-height: 15px;
+}
+#product_hardware>a b:hover{
+    background: #FF6700;
+}
+#product_hardware>a b{
+        display:inline-block;
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+        border: 1px solid #B0b0b0;
+        border-radius: 50%;
+        background:#b0b0b0;
+        color:#FFF;
+        text-align: center;
+        margin-left: 8px;
+        padding: 3px;
+}
+#product_hardware a.prHe{
+    float: left;
+    width: 234px;
+    height: 614px;
+    margin-top: 10px;
+}
+/**右边列表**/
+#hardware{
+    margin-top: 9px;
+}
+#hardware li{
+    float: left;
+    width:236px;
+    height: 300px;
+    margin-left: 13px;
+    background: #FFF;
+    text-align: center;
+    margin-bottom: 14px;
+}
+#hardware li div{
+    margin-bottom: 45px;
+}
+#hardware li h4{
+    height:20px;
+    margin: 10px auto ;
+}
+#hardware li span {
+    display: block;
+    color:#FFAC13;
+    margin: 10px;
+}
+#hardware li no_banner h4{
+    margin-top: 57px;
+}
+/****\\第三部分**搭配****/
+#pd_match,#pd_parts,#pd_circum{
+    float: left;
+    border: 1px solid #f5f5f5;
+    margin-top: 10px;
+}
+#pd_match div.top,#pd_parts div.top,#pd_circum div.top{
+    float: left;
+    margin:10px auto ;
+    width:1230px;
+}
+div.top ul li{
+    float: left;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+ul.rt_li{
+    float: left;
+    width: 1230px;
+    height: 614px;
+}
+/***暴多列表****/
+ul.rt_li li{
+    float: left;
+    width: 236px;
+    height: 300px;
+    margin-left: 13px;
+    background:#FFF;
+    text-align: center;
+    margin-bottom: 14px;
+}
+#pd_match ul.rt_li li img{
+    margin: 20px auto;
+}
+#pd_match ul.rt_li li span {
+    display:block;
+    margin: 16px auto;
+}
+#pd_match ul.rt_li li span s{
+    padding-left: 8px;
+    color: #B0B0B0;
+}
+/**右边**/
+#pd_match ul.rt_li li>div{
+    height: 140px;
+    margin-bottom: 10px;
+}
+#pd_match ul.rt_li li>div span,h3{
+    margin: 0;
+    padding-top: 40px;
+}
+/****\\第四部分**配件****/
+/****\\第五部分**周边****/
+/****\\第六部分**为你推荐****/
+
+
+
