@@ -1,0 +1,220 @@
+.div1-lkx-7{
+    position: relative;
+    height: 40px;
+    font-size: 12px;
+    color: #b0b0b0;
+    background: #333;
+}
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.xxlk{
+    position: relative;
+    width: 1226px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.yemei1-lkx{
+    display: block;
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .yemei~-lkx{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+  }
+  .gouwuche-lkxin{
+    margin-left: 25px;
+    float: right;
+  }
+
+   .bianyemei-929{
+    float: right;
+    line-height: 40px;
+  }
+  .oct{
+    padding: 2px;
+    margin: 0 .25em;
+    font-family: sans-serif;
+  }
+  .yemei2{
+    color: #757575;
+    text-decoration: none;
+    padding: 0.5px;
+  }
+  .mizidiv-en{
+    float: left;
+    margin-top: 22px;
+  }
+  .en-xxlk{
+    position: absolute;
+    top: 22px;
+    left: 750px;
+  }
+  .header{
+      display: block;
+  }
+  .biaoti1-929{
+    position: relative;
+    z-index: 10;
+    float: left;
+    width: 820px;
+    height: 88px;
+    margin: 0 100px;
+    padding: 12px 0 0 30px;
+    list-style-type: none;
+    font-size: 16px;
+  }
+  .biaoti-7{
+    float: left;
+    display: block;
+    padding: 26px 10px 38px;
+    color: #333;
+  }
+  .biaoti2{
+    color: #333;
+    text-decoration: none;
+  }
+  .kuang1-lkx.hesehang a:hover{
+    background-color: #ff6600;
+  }
+  .yemei~-lkx a:hover{
+    color: #fff;
+  }
+  .bianyemei-929 a:hover{
+    color: #fff;
+  }
+  .xiaobiaoti-lkx li a:hover {
+    color: #ff6600;
+    }
+    .kuang1-lkx{
+        display: block;
+        position: absolute;
+        width: 234px;
+        height: 460px;
+        font-size: 14px;
+        top: 100px;
+        left: 0px;
+        z-index: 21;
+        background-color:rgba(0,0,0,0.6);
+      }
+      .hesekuang{
+        height: 420px;
+        border: 0;
+        margin: 0;
+        padding: 20px 0;
+        list-style-type: none;
+      }
+      .hesezi{
+        color: #fff;
+        text-decoration: none;
+      }
+      .dec{
+        color: rgba(255,255,255,0.5);
+        position: absolute;
+          top: 13px;
+          right: 20px;
+          font-size: 16px;
+          line-height: 16px;
+          font-style: normal;
+      }
+      .hesehang{
+        color: #fff;
+        position: relative;
+        display: block;
+        padding-left: 30px;
+        height: 42px;
+        line-height: 42px;
+      }
+      .tu1{
+        position: relative;
+      }
+      .touhang{
+        display: inline;
+        background: #333;
+      }
+      .tupian{
+        width: 1226;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .t-7{
+        width: 1226px;
+      }
+      .yihangdaima{
+        margin: 25px 10px 0px 0px;
+        text-decoration: none;
+      }
+      .tupian{
+        width: 1226px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      tu-7{
+          width: 1226px;
+      }
+      .shoujibox{
+        position: relative;
+        height: 58px;
+      }
+.shouji1{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+.shouji右边{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .chakanquanbu{
+    font-size: 16px;
+    line-height: 58px;
+    color: #424242;
+    transition: all .4s
+  }
+  .shouji-1 img{
+    height: 614px;
+    width: 234px;
+  }
+  .qiyuchouji{
+    position: relative;
+    z-index: 1;
+    float: left;
+    width: 234px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background: #fff;
+    transition: all .2s linear;
+  }
+  .tuyi{
+    width: 160px;
+    height: 160px;
+  } 
+  .yet{
+    color: #757575;
+    text-decoration: none;
+  }
+  .dazi{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  
+  .xiaozi{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+      
+  
