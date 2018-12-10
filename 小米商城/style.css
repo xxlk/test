@@ -175,7 +175,7 @@ header div:first-child{
     height: 13px;
     display: inline-block ;
     background: url(images/background.png)no-repeat 0 -53px;
-    float: right;
+    float:right;
 }
 #category_right{
     position: relative;
@@ -411,6 +411,204 @@ ul.rt_li li{
 /****\\第四部分**配件****/
 /****\\第五部分**周边****/
 /****\\第六部分**为你推荐****/
-
+#recommended{
+  float: left;
+  border: 1px solid #F5F5F5;
+  margin-top: 10px;
+}
+recommended div.top{
+  float: left;
+  margin: 10px auto;
+  width: 1230px;
+}
+#recommended div.top ul li{
+  float: left;
+  padding-left:20px;
+  margin-left: 20px;
+}
+#recommended div.top ul li:nth-child(1) a{
+  color: #FF6700;
+  border-bottom: 2px solid #ff6700;
+}
+recommended ul.rt_li{
+  float: left;
+  width: 1230px;
+  height: 300px;
+}
+/***第七部分**热评部分***/
+#buzz h2{
+  margin: 10px auto;
+}
+#buzz ul li{
+  float: left;
+  width: 300px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+#buzz ul li:last-child{
+  margin-right: 0px;
+}
+#buzz ul li span{
+  display:inline-block;
+  color:#FF563a;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+#buzz ul li p{
+  padding:20px 0;
+}
+#buzz ul li>div{
+  width: 236px;
+  text-align: left;
+  margin-left: 30px;
+}
+#buzz ul li:nth-child(1) div{
+  margin-top: 10px;
+}
+#buzz ul li:nth-child(2) div{
+  margin-top: 20px;
+}
+#buzz ul li :nth-child(4) div{
+  margin-top: 20px;
+}
+/**第四部分**视频***/
+#movies{
+  margin-top: 15px;
+}
+#movies>a b:hover{
+  background: #ff6700;
+}
+#movies>a b{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  border: 1px solid #B0B0B0;
+  border-radius: 50%;
+  background:#b0b0b0;
+  color: #fff;
+  text-align: center;
+  margin-left: 8px;
+  padding: 3px;
+}
+#movies ul{
+  border:1px solid #f5f5f5;
+  float: left;
+  margin: 10px auto;
+}
+#movies ul li{
+  float:left;
+  margin-right: 8px;
+  text-align: center;
+}
+#movies ul li :last-child{
+  margin-right: 0px;
+}
+#movies ul li p{
+  margin: 10px auto;
+}
+#movies ul lispan{
+  color: #b0b0b0;
+}
+/**第五部分**客户服务**/
+#Customer>ul li{
+  float: left;
+  padding-left:45px;
+  height: 56px;
+  line-height:56px;
+  font-size: 19px;
+}
+#customer>ul>span{
+  font-size: 15px;
+  float: left;
+  padding-left: 66px;
+  color: #b0b0b0;
+}
+#customer>ul{
+  height: 56px;
+  line-height: 56px;
+  float: left;
+  width: 1230px;
+}
+#hps ul{
+  float: left;
+  height: 134px;
+}
+#hps ul.help>li{
+  float: left;
+  margin: 28px;
+  padding-right: 45px;
+}
+#hps ul li a{
+  display:block;
+  margin: 10px 0 0;
+  font-size: 12px;
+}
+#hps>div{
+  width: 251px;
+  height: 134px;
+  border-left: 1px solid #E0e0e0;
+  text-align: center;
+  color: #616161;
+  margin: 6px 16px;
+}
+#hps>div>div{
+  margin:0 0 5px;
+  font-size: 22px;
+  color: #ff6700;
+}
+#hps>div>p{
+  margin: 0 0 16px;
+  font-size: 12px;
+}
+/*#hpd>div a.hv{
+  display:block;
+}
+#hpd>div img:hover{
+  background:#F25807;
+  color:#fff
+}*/
+#hps{
+  height: 200px;
+}
+/**第六部分**footer**/
+#ft{
+  background: #FAFAFA;
+  widows: 100%;
+  border: 1px solid #FAFAFA;
+  clear:both;
+}
+#footer{
+  border: 1px solid #FAFAFA;
+  clear:both;
+  height:56px;
+  margin: 20px auto;
+}
+#footer:before{
+  content: "";
+  overflow: hidden;
+  clear: both;
+}
+#footer>p{
+  width: 57px;
+  height: 57px;
+  background: url(images/logo-footer.png)no-repeat;
+}
+#footer div.lt{
+  font-size: 12px;
+}
+#footer div.lt>p{
+  margin: 4px 0px;
+}
+#footer div.rt{
+  margin-top:16px;
+}
+div.btm{
+  width: 1230px;
+  clear: both;
+  margin:30px 615px;
+  height: 19px;
+  background:url(images/slogan2016.png)no-repeat;
+}
 
 
