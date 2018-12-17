@@ -200,31 +200,22 @@
     color: #757575;
     text-decoration: none;
   }
-  .dazi {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-  }
-  .xiaozi {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px
-  }
-  .phone{
-    height: 674px;
-  }
-  .pho-hd{
-    height: 22px;
-    padding: 19px 0;
-    line-height: 22px;
-  }
-  .pho-hd h4{
-    float: left;
-    font-size: 22px;
-    color: #333333;
-    font-weight: 200;
-  }
+.phone{
+  height: 674px;
+}
+.pho-hd{
+  height: 22px;
+  padding: 19px 0;
+  line-height: 0px;
+}
+.pho-hd h2{
+  float: left;
+  font-size: 22px;
+  color:#333333;
+  font-weight: 200;
+}
+.pho-hd a{
+  float: right;
+  font-size: 14px;
+  color:#333;
+}
