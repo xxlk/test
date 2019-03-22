@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>烤箱温度试题</title>
+</head>
+<body>
+  <script>
+    function bake ( degress ) {
+      var message;
+      if ( degress > 500 ) {
+        message = " I'm not a nuclear reactor！"
+      } else if ( degress < 100){
+        message = " I'm not a fridge!"
+      } else {
+        message = " Yes , is correct!"
+      }
+      return message
+    }
+    var status = bake ( 350 )
+    alert ( bake (350)       )  // (  'yes is corret '     )
+  </script>
+</body>
+</html>
