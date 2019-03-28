@@ -8,23 +8,28 @@
 </head>
 <body>
   <script>
-    function makePhrases() {
-      var words1 = ['陈泽宇','杨克琴','郭懿婷','陈欣楚','杨心怡','吴倩雯','龚佳怡','李可新','陆心怡',
-'张璐','潘梦情','田金丰','葛梦蝶','刘祎婷','沈宇峰','王达','李一鸣','徐志豪','孙睿褀','徐杨',
-'濮徐杰','陈卓豪','王昱','林超凡','孔易飞','王诚礼','杨凤旗','王韫韬','吴策','顾强','顾强','薛宇成',
-'俞浩','陈李鹏','徐超','顾伟豪','王钦鹏','孙权','潘铖','朱铭杨','张程','杨吉']
-      var words2 = ['3.26','3.27','3.28','3.29','3.30','3.31','早上','下午','凌晨一点','中午12点']
-      var words3 = ['家里','学校','教室','食堂','教学楼','办公室','街上']
-      var words4 = ['。','！','？']
-      var rand1 = Math.floor ( Math.random () * words1.length ) 
-      var rand2 = Math.floor ( Math.random () * words2.length ) 
-      var rand3 = Math.floor ( Math.random () * words3.length ) 
-      var rand4 = Math.floor ( Math.random() * words4.length )
-      var phrase = words1[rand1] + '' + words2[rand2] + '' + words3[rand3] + words[rand4]
-
-      alert ( phrase )
+    window.onload = function () {
+      function makePhrases() {
+        var person = ['陈泽宇','杨克琴','郭懿婷','陈欣楚','杨心怡','吴倩雯','龚佳怡','李可新','陆心怡',
+        '张璐','潘梦情','田金丰','葛梦蝶','刘祎婷','沈宇峰','王达','李一鸣','徐志豪','孙睿褀','徐杨',
+        '濮徐杰','陈卓豪','王昱','林超凡','孔易飞','王诚礼','杨凤旗','王韫韬','吴策','顾强','顾强','薛宇成',
+        '俞浩','陈李鹏','徐超','顾伟豪','王钦鹏','孙权','潘铖','朱铭杨','张程','杨吉']
+        var time = ['3.26','3.27','3.28','3.29','3.30','3.31','早上','下午','凌晨一点','中午12点']
+        var place = ['在家里','在学校','在教室','在食堂','在教学楼','在办公室','在街上']
+        var symbol = ['。','！','？']
+        // var rand1 = chooseRandStrInArray ( person )
+        // var rand2 = chooseRandStrInArray ( time )
+        // var rand3 = chooseRandStrInArray ( place ) 
+        // var rand4 = chooseRandStrInArray ( symbol )
+        var phrase = chooseRandStrInArray ( person ) + '' + chooseRandStrInArray ( time ) + '' + chooseRandStrInArray ( place ) + '' + chooseRandStrInArray ( symbol )
+        alert ( phrase )
+        function chooseRandStrInArray ( array ){
+          return array [ Math.floor (Math.random () * array.length)]
+        }
+        //chooseRandStrInArray(time)
+      }
+      makePhrases()
     }
-    makePhrases()
   </script>
 </body>
 </html>
