@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>获取最高分</title>
+</head>
+<body>
+  <script>
+    var highest = 0
+    var xiabiao = []
+    var j = 0
+    var score = [97,67,75,83,64,55,61,72,83,97]
+    for (var i = 0; i < score.length;i++){
+      if(score [i] > highest){
+        highest = score[i]
+        xiabiao = []
+        j = 0
+        xiabiao[j] = i
+      } else if (score[i] == highest) {
+        j++
+        xiabiao[j] = i
+      }
+    }
+  </script>
+</body>
+</html>
